@@ -122,4 +122,49 @@ namespace SiFiWest
             base.Draw(gameTime);
         }
     }
+
+    // ** Grid code
+
+    // Grid Initialize
+    //Point startPosition = new Point(40, 40);
+    //Point squareSize = new Point(50, 50);
+
+    //for (int i = 0; i < _squareGrid.GetLength(0); i++)
+    //{
+    //    for (int j = 0; j < _squareGrid.GetLength(1); j++)
+    //    {
+    //        int x = squareSize.X * i + startPosition.X;
+    //        int y = squareSize.Y * j + startPosition.Y;
+
+    //        _squareGrid[i, j] = new Square(new Point(x, y), squareSize, Content, Square.SquareState.EMPTY);
+    //    }
+    //}
+
+    //_squareGrid[3, 1].SetState(Square.SquareState.ENEMY);
+    //_squareGrid[3, 4].SetState(Square.SquareState.ENEMY);
+
+
+    // Grid Update
+    //MouseState mouseState = Mouse.GetState();
+
+    //if (mouseState.LeftButton == ButtonState.Pressed)
+    //{
+    //    foreach (Square s in _squareGrid)
+    //    {
+    //        if (s.BoundingRectangle.Contains(mouseState.Position))
+    //        {
+    //            if (_selectSquare != null) _selectSquare.SetState(Square.SquareState.EMPTY);
+
+    //            _selectSquare = s;
+    //            s.SetState(Square.SquareState.SELECTED);
+    //        }
+    //    }
+    //}
+
+    // Grid Draw
+    //foreach (Square s in _squareGrid)
+    //{
+    //    s.Draw(_spriteBatch);
+    //}
+
 }

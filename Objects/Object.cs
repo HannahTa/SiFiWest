@@ -1,6 +1,6 @@
 ﻿using Microsoft.Xna.Framework.Graphics;
 
-namespace Game2.Objects
+namespace SiFiWest.Objects
 {
     public abstract class Object
     {

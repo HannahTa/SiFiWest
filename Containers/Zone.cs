@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using Microsoft.Xna.Framework.Graphics;
 
-using Game2.Objects;
+using SiFiWest.Objects;
 
-namespace Game2
+namespace SiFiWest.Containers
 {
     class Zone
     {

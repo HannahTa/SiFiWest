@@ -2,7 +2,11 @@
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
-namespace Game2
+using SiFiWest.Objects;
+using SiFiWest.Containers;
+using SiFiWest.Functionality;
+
+namespace SiFiWest
 {
     /// <summary>
     /// This is the main type for your game.
@@ -19,7 +23,9 @@ namespace Game2
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
-            Content.RootDirectory = "Content";
+            //graphics.IsFullScreen = true;
+
+            Content.RootDirectory = "Content\\bin\\SiFiWest\\Images";
             IsMouseVisible = true;
         }
 
@@ -49,7 +55,7 @@ namespace Game2
             currZone = new Zone(0);
             bot = new Bot(0,0,30,50);
             // Starting Camera Position
-            camera.Position = new Vector2(-375, -340);
+            //camera.Position = new Vector2(-375, -340);
         }
 
         /// <summary>
@@ -104,6 +110,7 @@ namespace Game2
 
             Matrix viewMatix = camera.GetViewMatrix();
             spriteBatch.Begin(transformMatrix: viewMatix);
+            //spriteBatch.Begin();
 
             currZone.drawBackground(spriteBatch);
             // Enemies

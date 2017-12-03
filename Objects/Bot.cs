@@ -1,9 +1,10 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Input;
-using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Game2
+using SiFiWest.Functionality;
+
+namespace SiFiWest.Objects
 {
     public class Bot
     {

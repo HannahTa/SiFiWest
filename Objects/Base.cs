@@ -1,7 +1,9 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace Game2.Objects
+using SiFiWest.Functionality;
+
+namespace SiFiWest.Objects
 {
     class Base : Object
     {

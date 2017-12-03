@@ -1,11 +1,10 @@
-﻿using System;
-using Microsoft.Xna.Framework;
+﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input.Touch;
 
-namespace Game1
+namespace SiFiWest.Functionality
 {
-    public class Camera
+    public class GridCamera
     {
         GraphicsDevice graphicsDevice;
 
@@ -44,7 +43,7 @@ namespace Game1
             }
         }
 
-        public Camera(GraphicsDevice graphicsDevice)
+        public GridCamera(GraphicsDevice graphicsDevice)
         {
             this.graphicsDevice = graphicsDevice;
         }

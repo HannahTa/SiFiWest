@@ -3,11 +3,11 @@ using Microsoft.Xna.Framework.Graphics;
 
 namespace SiFiWest.Functionality
 {
-    class BasicCamera
+    class WorldCamera
     {
         private readonly Viewport viewport;
 
-        public BasicCamera(Viewport viewport)
+        public WorldCamera(Viewport viewport)
         {
             this.viewport = viewport;
 

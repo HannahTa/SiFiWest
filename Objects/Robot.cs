@@ -4,6 +4,8 @@ using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework.Input;
 
+using SiFiWest.Functionality;
+
 namespace Game1
 {
     public class Robot
@@ -53,7 +55,7 @@ namespace Game1
 
         // For now we'll take these values in, eventually we'll
         // take a Camera object
-        public void Draw(Camera camera)
+        public void Draw(GridCamera camera)
         {
             foreach (var mesh in model.Meshes)
             {

@@ -18,7 +18,7 @@ namespace SiFiWest
 
         Bot bot;
         Zone currZone;
-        BasicCamera camera;
+        WorldCamera camera;
 
         public Game1()
         {
@@ -38,7 +38,7 @@ namespace SiFiWest
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            camera = new BasicCamera(GraphicsDevice.Viewport);
+            camera = new WorldCamera(GraphicsDevice.Viewport);
             base.Initialize();
         }
 

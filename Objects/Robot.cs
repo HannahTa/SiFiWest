@@ -18,7 +18,6 @@ namespace Game1
         public void Initialize(ContentManager contentManager)
         {
             model = contentManager.Load<Model>("robot");
-
         }
 
         public void Update(GameTime gameTime)
